@@ -1,0 +1,9 @@
+{
+  "mode": "world-error",
+  "seeds": 1000,
+  "num_agents": [32],
+  "rows": 102400,
+  "rows_per_shard": 10000,
+  "max_episode_steps": 256,
+  "world_error": {"max_steps": 256, "max_transitions": 512}
+}

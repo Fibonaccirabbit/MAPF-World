@@ -1,0 +1,17 @@
+{
+  "mode": "ddg",
+  "library": "build/liblacam.so",
+  "seeds": 32,
+  "num_agents": [32, 64, 96, 128],
+  "rows": 102400,
+  "rows_per_shard": 10000,
+  "max_episode_steps": 256,
+  "ddg": {
+    "steps_delta": 16,
+    "steps_saved": 32,
+    "diff_threshold": 3,
+    "fast_time_limit": 2.0,
+    "expert_time_limit": 10.0,
+    "collect_on_success": false
+  }
+}

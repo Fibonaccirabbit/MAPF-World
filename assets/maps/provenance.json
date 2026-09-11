@@ -1,0 +1,570 @@
+[
+  {
+    "file": "berlin.map",
+    "sha256": "ee13a797d874d9dfb3b4774cafdca94349b0ba29e993f30fa6f79c947bb4ed00",
+    "city": "Berlin",
+    "country": "Germany",
+    "display_label": "Berlin 01",
+    "run": "berlin-city-final",
+    "tile": {
+      "name": "Germany-Berlin-tile_004_000",
+      "x": 4,
+      "y": 0,
+      "bounds": [
+        390642.55771403335,
+        5813260.214262406,
+        393714.55771403335,
+        5816332.214262406
+      ],
+      "path_length_m": 350656.68759458105,
+      "free_ratio": 0.4585113525390625,
+      "components": 5,
+      "largest_component": 0.9991014676029152,
+      "junctions": 706,
+      "skeleton_branch_pixels": 6771,
+      "endpoints": 246,
+      "spatial_coverage": 1.0,
+      "quality_score": 13.97713958281642
+    },
+    "generator_version": "0.3.0",
+    "crs": "EPSG:32633",
+    "tile_size_m": 3072.0,
+    "grid_resolution": 256,
+    "source": {
+      "backend": "pbf",
+      "input": "inputs/Berlin.osm.pbf",
+      "bbox": [
+        13.3,
+        52.46,
+        13.5,
+        52.56
+      ],
+      "sha256": "5488ecc2341a5775bbc36a9d30154d15fdcf5078ba599851530f5865a321adf8",
+      "size_bytes": 125450432
+    },
+    "selection": "Selected tile 1 in the original run; illustrative, not a benchmark sample.",
+    "attribution": "© OpenStreetMap contributors; https://www.openstreetmap.org/copyright"
+  },
+  {
+    "file": "berlin-02.map",
+    "sha256": "3b5cd9d2ed7f4b9f3ba246ac3a6777e59075ccf05074e4ebd6062d3a0b47f2c7",
+    "city": "Berlin",
+    "country": "Germany",
+    "display_label": "Berlin 02",
+    "run": "berlin-city-final",
+    "tile": {
+      "name": "Germany-Berlin-tile_000_000",
+      "x": 0,
+      "y": 0,
+      "bounds": [
+        384498.55771403335,
+        5813260.214262406,
+        387570.55771403335,
+        5816332.214262406
+      ],
+      "path_length_m": 473759.00881574047,
+      "free_ratio": 0.4903411865234375,
+      "components": 3,
+      "largest_component": 0.9997199315388205,
+      "junctions": 728,
+      "skeleton_branch_pixels": 6095,
+      "endpoints": 244,
+      "spatial_coverage": 1.0,
+      "quality_score": 13.849489219574709
+    },
+    "generator_version": "0.3.0",
+    "crs": "EPSG:32633",
+    "tile_size_m": 3072.0,
+    "grid_resolution": 256,
+    "source": {
+      "backend": "pbf",
+      "input": "inputs/Berlin.osm.pbf",
+      "bbox": [
+        13.3,
+        52.46,
+        13.5,
+        52.56
+      ],
+      "sha256": "5488ecc2341a5775bbc36a9d30154d15fdcf5078ba599851530f5865a321adf8",
+      "size_bytes": 125450432
+    },
+    "selection": "Selected tile 2 in the original run; illustrative, not a benchmark sample.",
+    "attribution": "© OpenStreetMap contributors; https://www.openstreetmap.org/copyright"
+  },
+  {
+    "file": "berlin-03.map",
+    "sha256": "bd7ca759324fbaf0919a3d96721808b2e140e2abc0398c92fde3ae794a5cd861",
+    "city": "Berlin",
+    "country": "Germany",
+    "display_label": "Berlin 03",
+    "run": "berlin-city-final",
+    "tile": {
+      "name": "Germany-Berlin-tile_003_000",
+      "x": 3,
+      "y": 0,
+      "bounds": [
+        389106.55771403335,
+        5813260.214262406,
+        392178.55771403335,
+        5816332.214262406
+      ],
+      "path_length_m": 346604.48314527125,
+      "free_ratio": 0.44305419921875,
+      "components": 7,
+      "largest_component": 0.9953161592505855,
+      "junctions": 674,
+      "skeleton_branch_pixels": 5941,
+      "endpoints": 181,
+      "spatial_coverage": 1.0,
+      "quality_score": 13.837468383450366
+    },
+    "generator_version": "0.3.0",
+    "crs": "EPSG:32633",
+    "tile_size_m": 3072.0,
+    "grid_resolution": 256,
+    "source": {
+      "backend": "pbf",
+      "input": "inputs/Berlin.osm.pbf",
+      "bbox": [
+        13.3,
+        52.46,
+        13.5,
+        52.56
+      ],
+      "sha256": "5488ecc2341a5775bbc36a9d30154d15fdcf5078ba599851530f5865a321adf8",
+      "size_bytes": 125450432
+    },
+    "selection": "Selected tile 3 in the original run; illustrative, not a benchmark sample.",
+    "attribution": "© OpenStreetMap contributors; https://www.openstreetmap.org/copyright"
+  },
+  {
+    "file": "berlin-04.map",
+    "sha256": "61691ff1d05dd8dc064d785aff59b0c3f106ac15b3397dceb08493112540e421",
+    "city": "Berlin",
+    "country": "Germany",
+    "display_label": "Berlin 04",
+    "run": "berlin-city-final",
+    "tile": {
+      "name": "Germany-Berlin-tile_002_000",
+      "x": 2,
+      "y": 0,
+      "bounds": [
+        387570.55771403335,
+        5813260.214262406,
+        390642.55771403335,
+        5816332.214262406
+      ],
+      "path_length_m": 431982.5046202117,
+      "free_ratio": 0.5051727294921875,
+      "components": 5,
+      "largest_component": 0.999305282870692,
+      "junctions": 807,
+      "skeleton_branch_pixels": 7239,
+      "endpoints": 231,
+      "spatial_coverage": 1.0,
+      "quality_score": 13.711488942362145
+    },
+    "generator_version": "0.3.0",
+    "crs": "EPSG:32633",
+    "tile_size_m": 3072.0,
+    "grid_resolution": 256,
+    "source": {
+      "backend": "pbf",
+      "input": "inputs/Berlin.osm.pbf",
+      "bbox": [
+        13.3,
+        52.46,
+        13.5,
+        52.56
+      ],
+      "sha256": "5488ecc2341a5775bbc36a9d30154d15fdcf5078ba599851530f5865a321adf8",
+      "size_bytes": 125450432
+    },
+    "selection": "Selected tile 4 in the original run; illustrative, not a benchmark sample.",
+    "attribution": "© OpenStreetMap contributors; https://www.openstreetmap.org/copyright"
+  },
+  {
+    "file": "paris.map",
+    "sha256": "954b560a30c97359d7c0dbe15581f3ed884319f36fe3a55e626752c40466360b",
+    "city": "Paris",
+    "country": "France",
+    "display_label": "Paris 01",
+    "run": "paris-api-final",
+    "tile": {
+      "name": "France-Paris-tile_001_002",
+      "x": 1,
+      "y": 2,
+      "bounds": [
+        444707.5287151668,
+        5410233.8234357545,
+        447779.5287151668,
+        5413305.8234357545
+      ],
+      "path_length_m": 458534.780960591,
+      "free_ratio": 0.51324462890625,
+      "components": 6,
+      "largest_component": 0.9928647877274349,
+      "junctions": 800,
+      "skeleton_branch_pixels": 6666,
+      "endpoints": 165,
+      "spatial_coverage": 1.0,
+      "quality_score": 13.564190877314427
+    },
+    "generator_version": "0.3.0",
+    "crs": "EPSG:32631",
+    "tile_size_m": 3072.0,
+    "grid_resolution": 256,
+    "source": {
+      "backend": "overpass",
+      "input": "Paris, France",
+      "bbox": null,
+      "resolved_name": "Paris, Île-de-France, France métropolitaine, France",
+      "query_bbox": [
+        2.224122,
+        48.8155755,
+        2.4697602,
+        48.902156
+      ],
+      "query_area_km2": 173.54629485414122,
+      "boundary_sha256": "dd6bcb3ed89cb61e78fa2e3ef768ed94ddbecce3f9fbd856d0812e31660a0ea3",
+      "response_sha256": "89160e2ec5e12ce9ab1eac7c29091cf077a0e0a86f59250d48c5b38f93deaec2",
+      "osm_base_timestamp": "2026-09-05T04:47:36Z"
+    },
+    "selection": "Selected tile 1 in the original run; illustrative, not a benchmark sample.",
+    "attribution": "© OpenStreetMap contributors; https://www.openstreetmap.org/copyright"
+  },
+  {
+    "file": "paris-02.map",
+    "sha256": "de62b67391f5fa1f088d397173675f7cbe5c0c83aa0e869c565ca7da381cd6a7",
+    "city": "Paris",
+    "country": "France",
+    "display_label": "Paris 02",
+    "run": "paris-api-final",
+    "tile": {
+      "name": "France-Paris-tile_003_004",
+      "x": 3,
+      "y": 4,
+      "bounds": [
+        447779.5287151668,
+        5413305.8234357545,
+        450851.5287151668,
+        5416377.8234357545
+      ],
+      "path_length_m": 522669.07812705694,
+      "free_ratio": 0.505615234375,
+      "components": 5,
+      "largest_component": 0.9992455335586673,
+      "junctions": 779,
+      "skeleton_branch_pixels": 5685,
+      "endpoints": 111,
+      "spatial_coverage": 0.921875,
+      "quality_score": 13.44512039498158
+    },
+    "generator_version": "0.3.0",
+    "crs": "EPSG:32631",
+    "tile_size_m": 3072.0,
+    "grid_resolution": 256,
+    "source": {
+      "backend": "overpass",
+      "input": "Paris, France",
+      "bbox": null,
+      "resolved_name": "Paris, Île-de-France, France métropolitaine, France",
+      "query_bbox": [
+        2.224122,
+        48.8155755,
+        2.4697602,
+        48.902156
+      ],
+      "query_area_km2": 173.54629485414122,
+      "boundary_sha256": "dd6bcb3ed89cb61e78fa2e3ef768ed94ddbecce3f9fbd856d0812e31660a0ea3",
+      "response_sha256": "89160e2ec5e12ce9ab1eac7c29091cf077a0e0a86f59250d48c5b38f93deaec2",
+      "osm_base_timestamp": "2026-09-05T04:47:36Z"
+    },
+    "selection": "Selected tile 2 in the original run; illustrative, not a benchmark sample.",
+    "attribution": "© OpenStreetMap contributors; https://www.openstreetmap.org/copyright"
+  },
+  {
+    "file": "paris-03.map",
+    "sha256": "0f72baffeb6db0bc40131cc1d59333e9ba60927111dbf17f1f631eb6414bc978",
+    "city": "Paris",
+    "country": "France",
+    "display_label": "Paris 03",
+    "run": "paris-api-final",
+    "tile": {
+      "name": "France-Paris-tile_007_003",
+      "x": 7,
+      "y": 3,
+      "bounds": [
+        453923.5287151668,
+        5411769.8234357545,
+        456995.5287151668,
+        5414841.8234357545
+      ],
+      "path_length_m": 567589.0336779169,
+      "free_ratio": 0.54229736328125,
+      "components": 3,
+      "largest_component": 0.9981992121553179,
+      "junctions": 824,
+      "skeleton_branch_pixels": 7470,
+      "endpoints": 186,
+      "spatial_coverage": 0.96875,
+      "quality_score": 13.432974651439016
+    },
+    "generator_version": "0.3.0",
+    "crs": "EPSG:32631",
+    "tile_size_m": 3072.0,
+    "grid_resolution": 256,
+    "source": {
+      "backend": "overpass",
+      "input": "Paris, France",
+      "bbox": null,
+      "resolved_name": "Paris, Île-de-France, France métropolitaine, France",
+      "query_bbox": [
+        2.224122,
+        48.8155755,
+        2.4697602,
+        48.902156
+      ],
+      "query_area_km2": 173.54629485414122,
+      "boundary_sha256": "dd6bcb3ed89cb61e78fa2e3ef768ed94ddbecce3f9fbd856d0812e31660a0ea3",
+      "response_sha256": "89160e2ec5e12ce9ab1eac7c29091cf077a0e0a86f59250d48c5b38f93deaec2",
+      "osm_base_timestamp": "2026-09-05T04:47:36Z"
+    },
+    "selection": "Selected tile 3 in the original run; illustrative, not a benchmark sample.",
+    "attribution": "© OpenStreetMap contributors; https://www.openstreetmap.org/copyright"
+  },
+  {
+    "file": "paris-04.map",
+    "sha256": "673de78692b0420b207115d36a356035c3f12eb8774c7a6f09a8668a0aaa29d6",
+    "city": "Paris",
+    "country": "France",
+    "display_label": "Paris 04",
+    "run": "paris-api-final",
+    "tile": {
+      "name": "France-Paris-tile_006_004",
+      "x": 6,
+      "y": 4,
+      "bounds": [
+        452387.5287151668,
+        5413305.8234357545,
+        455459.5287151668,
+        5416377.8234357545
+      ],
+      "path_length_m": 566745.3013388321,
+      "free_ratio": 0.53076171875,
+      "components": 7,
+      "largest_component": 0.9987925482980681,
+      "junctions": 818,
+      "skeleton_branch_pixels": 6943,
+      "endpoints": 180,
+      "spatial_coverage": 1.0,
+      "quality_score": 13.415543710274727
+    },
+    "generator_version": "0.3.0",
+    "crs": "EPSG:32631",
+    "tile_size_m": 3072.0,
+    "grid_resolution": 256,
+    "source": {
+      "backend": "overpass",
+      "input": "Paris, France",
+      "bbox": null,
+      "resolved_name": "Paris, Île-de-France, France métropolitaine, France",
+      "query_bbox": [
+        2.224122,
+        48.8155755,
+        2.4697602,
+        48.902156
+      ],
+      "query_area_km2": 173.54629485414122,
+      "boundary_sha256": "dd6bcb3ed89cb61e78fa2e3ef768ed94ddbecce3f9fbd856d0812e31660a0ea3",
+      "response_sha256": "89160e2ec5e12ce9ab1eac7c29091cf077a0e0a86f59250d48c5b38f93deaec2",
+      "osm_base_timestamp": "2026-09-05T04:47:36Z"
+    },
+    "selection": "Selected tile 4 in the original run; illustrative, not a benchmark sample.",
+    "attribution": "© OpenStreetMap contributors; https://www.openstreetmap.org/copyright"
+  },
+  {
+    "file": "luxembourg.map",
+    "sha256": "0c0698ebe388e2a03af55bf4ea444d8c92f1253fdf0b4e37ce7cd41c10245577",
+    "city": "Luxembourg",
+    "country": "Luxembourg",
+    "display_label": "Luxembourg 01",
+    "run": "luxembourg-final",
+    "tile": {
+      "name": "Luxembourg-Luxembourg-tile_001_001",
+      "x": 1,
+      "y": 1,
+      "bounds": [
+        290424.02219189494,
+        5496178.014115237,
+        293496.02219189494,
+        5499250.014115237
+      ],
+      "path_length_m": 332599.0929297446,
+      "free_ratio": 0.4235382080078125,
+      "components": 8,
+      "largest_component": 0.9991353532442266,
+      "junctions": 725,
+      "skeleton_branch_pixels": 5431,
+      "endpoints": 199,
+      "spatial_coverage": 0.984375,
+      "quality_score": 13.658012088899245
+    },
+    "generator_version": "0.3.0",
+    "crs": "EPSG:32632",
+    "tile_size_m": 3072.0,
+    "grid_resolution": 256,
+    "source": {
+      "backend": "pbf",
+      "input": "inputs/luxembourg-latest.osm.pbf",
+      "bbox": [
+        6.08,
+        49.57,
+        6.19,
+        49.65
+      ],
+      "sha256": "2415dafb1e5ed053b24f796ffd8337e87de69a0d9d2c2850aa9e73631975a742",
+      "size_bytes": 44927285
+    },
+    "selection": "Selected tile 1 in the original run; illustrative, not a benchmark sample.",
+    "attribution": "© OpenStreetMap contributors; https://www.openstreetmap.org/copyright"
+  },
+  {
+    "file": "luxembourg-02.map",
+    "sha256": "d3f28236a30594b707fd0c8fd8834d6576d33b69d61ffe77e3b679096afbc99c",
+    "city": "Luxembourg",
+    "country": "Luxembourg",
+    "display_label": "Luxembourg 02",
+    "run": "luxembourg-final",
+    "tile": {
+      "name": "Luxembourg-Luxembourg-tile_002_001",
+      "x": 2,
+      "y": 1,
+      "bounds": [
+        291960.02219189494,
+        5496178.014115237,
+        295032.02219189494,
+        5499250.014115237
+      ],
+      "path_length_m": 261367.18193375354,
+      "free_ratio": 0.392913818359375,
+      "components": 5,
+      "largest_component": 0.9988349514563106,
+      "junctions": 669,
+      "skeleton_branch_pixels": 5300,
+      "endpoints": 170,
+      "spatial_coverage": 1.0,
+      "quality_score": 13.544472522608253
+    },
+    "generator_version": "0.3.0",
+    "crs": "EPSG:32632",
+    "tile_size_m": 3072.0,
+    "grid_resolution": 256,
+    "source": {
+      "backend": "pbf",
+      "input": "inputs/luxembourg-latest.osm.pbf",
+      "bbox": [
+        6.08,
+        49.57,
+        6.19,
+        49.65
+      ],
+      "sha256": "2415dafb1e5ed053b24f796ffd8337e87de69a0d9d2c2850aa9e73631975a742",
+      "size_bytes": 44927285
+    },
+    "selection": "Selected tile 2 in the original run; illustrative, not a benchmark sample.",
+    "attribution": "© OpenStreetMap contributors; https://www.openstreetmap.org/copyright"
+  },
+  {
+    "file": "luxembourg-03.map",
+    "sha256": "bfcdc9b8f30b00029764b3d003bb4306b3e51e85ae89177ff850463c176ea81d",
+    "city": "Luxembourg",
+    "country": "Luxembourg",
+    "display_label": "Luxembourg 03",
+    "run": "luxembourg-final",
+    "tile": {
+      "name": "Luxembourg-Luxembourg-tile_002_002",
+      "x": 2,
+      "y": 2,
+      "bounds": [
+        291960.02219189494,
+        5497714.014115237,
+        295032.02219189494,
+        5500786.014115237
+      ],
+      "path_length_m": 312749.9008339752,
+      "free_ratio": 0.437957763671875,
+      "components": 14,
+      "largest_component": 0.9939725454672148,
+      "junctions": 694,
+      "skeleton_branch_pixels": 6336,
+      "endpoints": 200,
+      "spatial_coverage": 1.0,
+      "quality_score": 13.464681767695692
+    },
+    "generator_version": "0.3.0",
+    "crs": "EPSG:32632",
+    "tile_size_m": 3072.0,
+    "grid_resolution": 256,
+    "source": {
+      "backend": "pbf",
+      "input": "inputs/luxembourg-latest.osm.pbf",
+      "bbox": [
+        6.08,
+        49.57,
+        6.19,
+        49.65
+      ],
+      "sha256": "2415dafb1e5ed053b24f796ffd8337e87de69a0d9d2c2850aa9e73631975a742",
+      "size_bytes": 44927285
+    },
+    "selection": "Selected tile 3 in the original run; illustrative, not a benchmark sample.",
+    "attribution": "© OpenStreetMap contributors; https://www.openstreetmap.org/copyright"
+  },
+  {
+    "file": "luxembourg-04.map",
+    "sha256": "017c0fc0ee1a978139dc9db431f0493e97511112c0a5d9d7908bfa07a36464ac",
+    "city": "Luxembourg",
+    "country": "Luxembourg",
+    "display_label": "Luxembourg 04",
+    "run": "luxembourg-final",
+    "tile": {
+      "name": "Luxembourg-Luxembourg-tile_001_002",
+      "x": 1,
+      "y": 2,
+      "bounds": [
+        290424.02219189494,
+        5497714.014115237,
+        293496.02219189494,
+        5500786.014115237
+      ],
+      "path_length_m": 384869.6000094714,
+      "free_ratio": 0.4701080322265625,
+      "components": 16,
+      "largest_component": 0.9915609075270213,
+      "junctions": 785,
+      "skeleton_branch_pixels": 6625,
+      "endpoints": 230,
+      "spatial_coverage": 1.0,
+      "quality_score": 13.38894480623895
+    },
+    "generator_version": "0.3.0",
+    "crs": "EPSG:32632",
+    "tile_size_m": 3072.0,
+    "grid_resolution": 256,
+    "source": {
+      "backend": "pbf",
+      "input": "inputs/luxembourg-latest.osm.pbf",
+      "bbox": [
+        6.08,
+        49.57,
+        6.19,
+        49.65
+      ],
+      "sha256": "2415dafb1e5ed053b24f796ffd8337e87de69a0d9d2c2850aa9e73631975a742",
+      "size_bytes": 44927285
+    },
+    "selection": "Selected tile 4 in the original run; illustrative, not a benchmark sample.",
+    "attribution": "© OpenStreetMap contributors; https://www.openstreetmap.org/copyright"
+  }
+]

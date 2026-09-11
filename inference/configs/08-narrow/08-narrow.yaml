@@ -1,0 +1,56 @@
+environment:
+  name: Environment
+  with_animation: True
+  on_target: nothing
+  max_episode_steps: 128
+  observation_type: MAPF
+  collision_system: soft
+  seed:
+    grid_search:
+      [
+        0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
+      ]
+  num_agents:
+    grid_search: [512]
+  map_name:
+    grid_search:
+      [
+        narrow_warehouse,
+      ]
+algorithms:
+  MAPF-World-slow:
+    name: MAPF-World
+    parallel_backend: balanced_dask
+    num_process: 2
+    is_slow: true
+    world_weights: weights/mapf-world-3M.pt
+  MAPF-World:
+    name: MAPF-World
+    parallel_backend: balanced_dask
+    num_process: 2
+    world_weights: weights/mapf-world-3M.pt
+
+results_views:
+  TabularView1:
+    type: tabular
+    drop_keys: [seed]
+    print_results: True
+    round_digits: 3
+  08-narrow-runtime:
+    name: Narrow Warehouse
+    type: plot
+    x: num_agents
+    y: runtime
+    width: 2.5
+    height: 2.5
+    line_width: 2
+    use_log_scale_x: False
+    use_log_scale_y: True
+    legend_font_size: 8
+    font_size: 8
+    ticks: [16, 32, 64, 96, 128]
+  TabularCongestion:
+    type: tabular
+    drop_keys: [seed, map_name, ISR, CSR, ep_length, SoC, makespan, runtime]
+    print_results: True
+    round_digits: 3

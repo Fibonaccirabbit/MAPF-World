@@ -1,0 +1,57 @@
+environment:
+  name: Environment
+  with_animation: True
+  on_target: nothing
+  max_episode_steps: 128
+  observation_type: MAPF
+  collision_system: soft
+  seed:
+    grid_search: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+  num_agents:
+    grid_search: [
+      2,3,4
+
+      ]
+  map_name:
+    grid_search:
+      [
+        puzzle-00,
+        puzzle-01,
+        puzzle-02,
+        puzzle-03,
+        puzzle-04,
+        puzzle-05,
+        puzzle-06,
+        puzzle-07,
+        puzzle-08,
+        puzzle-09,
+        puzzle-10,
+        puzzle-11,
+        puzzle-12,
+        puzzle-13,
+        puzzle-14,
+        puzzle-15,
+      ]
+
+algorithms:
+  MAPF-World:
+    name: MAPF-World
+    parallel_backend: balanced_dask
+    num_process: 4
+    world_weights: weights/mapf-world-3M.pt
+  MAPF-World-slow:
+    name: MAPF-World
+    parallel_backend: balanced_dask
+    num_process: 2
+    is_slow: true
+    world_weights: weights/mapf-world-3M.pt
+
+results_views:
+  TabularView1:
+    type: tabular
+    drop_keys:
+      [
+        seed,
+        map_name,
+      ]
+    print_results: True

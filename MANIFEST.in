@@ -1,0 +1,7 @@
+include README.md LICENSE references.bib requirements.txt
+recursive-include train *.py *.json
+recursive-include model *.py
+recursive-include inference *.py *.yaml
+recursive-include generator *.py *.cpp *.yaml
+recursive-include utils *.py
+recursive-include assets *.png *.map *.json
